@@ -1,10 +1,5 @@
-title: Georgia H-C
+title: Georgia Harbor-Collins
 logo: 
 description: hi
 theme: minima
-minima:
-  nav_pages:
-    - about.md
-    - portfolio.md
-minima:
-  skin: dark
+skin: dark
