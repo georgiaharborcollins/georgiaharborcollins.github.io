@@ -4,4 +4,4 @@ author:
 description: hi
 remote_theme: jekyll/minima
 minima:
-  skin: solarized-dark  
+  skin: dark 
