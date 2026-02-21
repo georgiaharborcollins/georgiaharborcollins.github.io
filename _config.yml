@@ -2,4 +2,7 @@ title: Georgia Harbor-Collins
 logo: 
 description: hi
 theme: minima
-skin: dark
+minima:
+  nav_pages:
+    - about.md
+    
