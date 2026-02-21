@@ -1,4 +1,10 @@
-title: 
+title: Georgia H-C
 logo: 
 description: hi
-theme: jekyll-theme-minimal
+theme: minima
+minima:
+  nav_pages:
+    - about.md
+    - portfolio.md
+minima:
+  skin: dark
