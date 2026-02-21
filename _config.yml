@@ -1,6 +1,6 @@
 title: Georgia Harbor-Collins
+description
 theme: minima
 minima:
-  nav_pages:
-    - about.md
+  skin: solarized-dark
     
