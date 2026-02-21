@@ -1,6 +1,5 @@
 title: Georgia Harbor-Collins
-description : hi
-remote_theme: jekyll/minima
-minima:
-  skin: solarized-dark
+description: hi
+logo: !(ducks.jpg)
+theme: minima
     
