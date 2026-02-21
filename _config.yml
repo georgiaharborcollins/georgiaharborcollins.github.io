@@ -1,6 +1,10 @@
 title: Georgia Harbor-Collins
 description
 theme: minima
+@charset "utf-8";
+
+$sol-is-auto: false;
+@import "minima/skins/solarized";
 minima:
   skin: solarized-dark
     
