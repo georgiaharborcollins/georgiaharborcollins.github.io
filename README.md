@@ -1,4 +1,4 @@
-![](ducks.png)
+![](ducks.png =100x20)
 
 Hello! I am a fourth year Ph.D. student at the [University of Connecticut](http://www.uconn.edu), working under the supervision of [Keith Conrad](https://kconrad.math.uconn.edu).
 
