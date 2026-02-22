@@ -1,4 +1,16 @@
-<img src="duckphoto.png" class="leftAlign"> Hello! I am a fourth year Ph.D. student at the [University of Connecticut](http://www.uconn.edu), working under the supervision of [Keith Conrad](https://kconrad.math.uconn.edu).
+<style>
+img
+{
+    display:block;
+    float:none;
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+}
+</style>
+![](duckphoto.png) 
+
+Hello! I am a fourth year Ph.D. student at the [University of Connecticut](http://www.uconn.edu), working under the supervision of [Keith Conrad](https://kconrad.math.uconn.edu).
 
 Here is a puppy picture:
 ![puppy](filename)
