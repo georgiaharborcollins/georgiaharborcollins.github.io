@@ -1,6 +1,6 @@
 <p align="center" width="100%">
-    <img width="25%" src="ducks.png">
     <img width="25%" src="profile.png">
+    <img width="25%" src="ducks.png">    
 </p>
 
 Hello! I am a fourth year Ph.D. student at the [University of Connecticut](http://www.uconn.edu), working under the supervision of [Keith Conrad](https://kconrad.math.uconn.edu).
