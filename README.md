@@ -1,4 +1,4 @@
-<p align="right" width="100%">
+<p align="center" width="100%">
     <img width="25%" src="duckphoto.png">
     <img width="25%" src="duckphoto.png">
 </p>
