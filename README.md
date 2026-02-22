@@ -1,4 +1,4 @@
-![duck photo](C:/Users/georg/Pictures/ducks.jpg)
+![duck photo](georg/Pictures/ducks.jpg)
 
 Hello! I am a fourth year Ph.D. student at the [University of Connecticut](http://www.uconn.edu), working under the supervision of [Keith Conrad](https://kconrad.math.uconn.edu).
 
