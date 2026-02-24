@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink:
 ---
 <p align="center" width="100%">
     <img width="25%" src="profile.png">
