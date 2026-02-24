@@ -6,7 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
-title: About
+title: Home
 ---
 <p align="center" width="100%">
     <img width="25%" src="profile.png">
