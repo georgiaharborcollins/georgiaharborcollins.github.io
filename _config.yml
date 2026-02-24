@@ -1,6 +1,6 @@
 # Setup
-title: Dark Poole
-url: https://getpoole.com
+title: Georgia Harbor-Collins
+url: georgiaharborcollins@github.io
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -32,9 +32,9 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Georgia Harbor-Collins
+  url: georgiaharborcollins@github.io
+  email: georgia.harbor-collins@uconn.edu
 
 # Custom vars
 version: 3.0.0
