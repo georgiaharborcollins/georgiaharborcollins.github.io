@@ -1,12 +1,10 @@
-title: Your awesome title
+title: Georgia Harbor-Collins
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: Georgia Harbor-Collins
+  email: georgia.harbor-collins@uconn.edu
 
 description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+  hi
 
 theme: minima
 
@@ -27,7 +25,7 @@ minima:
   #     * solarized-light    Light variant of solarized color scheme.
   #     * solarized-dark     Dark variant of solarized color scheme.
   #     * solarized          Adaptive skin for solarized color scheme skins.
-  skin: classic
+  skin: dark
 
   # Specific pages for site navigation.
   #   If you wish to link only specific pages in the site-navigation, use this and list
@@ -50,10 +48,10 @@ minima:
   #     * title    Tooltip rendered on hovering over icon.
   #     * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
   #     * url      Full URL of social profile.
-  social_links:
-    - title: Minima Theme repository at GitHub
-      icon: github
-      url: "https://github.com/jekyll/minima"
-    - title: Jekyll at X (formerly Twitter)
-      icon: x-twitter
-      url: "https://x.com/jekyllrb"
+  #social_links:
+   # - title: Minima Theme repository at GitHub
+    #  icon: github
+     # url: "https://github.com/jekyll/minima"
+    #- title: Jekyll at X (formerly Twitter)
+     # icon: x-twitter
+      #url: "https://x.com/jekyllrb"
