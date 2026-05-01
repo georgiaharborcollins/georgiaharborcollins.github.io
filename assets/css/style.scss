@@ -1,7 +1,112 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
-
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+
+:root {
+  --sand: #f7efe3;
+  --cream: #fffaf1;
+  --moss: #5f6f52;
+  --moss-dark: #3f4a36;
+  --sage: #9aa889;
+  --clay: #b97455;
+  --driftwood: #7a5c45;
+  --ink: #302821;
+  --card: #fffdf8;
+  --line: #ded0bd;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(154, 168, 137, 0.18), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(185, 116, 85, 0.12), transparent 30%),
+    var(--sand);
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.7;
+}
+
+.site-header {
+  background: var(--cream);
+  border-top: 5px solid var(--moss);
+  border-bottom: 1px solid var(--line);
+}
+
+.site-title,
+.site-title:visited {
+  color: var(--moss-dark);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .page-link {
+  color: var(--moss-dark);
+}
+
+.site-nav .page-link:hover {
+  color: var(--clay);
+}
+
+.page-content {
+  padding-top: 40px;
+}
+
+.wrapper {
+  max-width: 850px;
+}
+
+.home,
+.page-content .wrapper > article,
+.post {
+  background: rgba(255, 253, 248, 0.86);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: 0 12px 30px rgba(80, 63, 45, 0.08);
+}
+
+h1, h2, h3 {
+  color: var(--moss-dark);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+h1::after {
+  content: " 𓇢𓆸";
+  color: var(--sage);
+  font-size: 0.75em;
+}
+
+a,
+a:visited {
+  color: var(--clay);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color: var(--moss);
+  text-decoration: underline;
+}
+
+img {
+  border-radius: 18px;
+}
+
+.paper-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-left: 6px solid var(--sage);
+  border-radius: 18px;
+  padding: 1.25rem 1.4rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 8px 22px rgba(80, 63, 45, 0.07);
+}
+
+.paper-card h3 {
+  margin-top: 0;
+}
+
+.site-footer {
+  background: var(--cream);
+  border-top: 1px solid var(--line);
+}
