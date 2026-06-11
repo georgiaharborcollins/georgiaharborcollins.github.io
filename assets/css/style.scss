@@ -1,29 +1,23 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
-
-@import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
-
+/* Muted coastal academic theme */
 
 :root {
-  --sand: #f7efe3;
-  --cream: #fffaf1;
-  --moss: #5f6f52;
-  --moss-dark: #3f4a36;
-  --sage: #9aa889;
-  --clay: #b97455;
-  --driftwood: #7a5c45;
-  --ink: #302821;
+  --sand: #f4efe7;
+  --shell: #fffaf4;
+  --foam: #edf3f1;
+  --seafoam: #b7c9c4;
+  --ocean: #5f7f8c;
+  --deep-ocean: #375866;
+  --driftwood: #8a7867;
+  --clay: #b88972;
+  --ink: #2f3437;
   --card: #fffdf8;
-  --line: #ded0bd;
+  --line: #d8ccc0;
 }
 
 body {
   background:
-    radial-gradient(circle at top left, rgba(154, 168, 137, 0.18), transparent 30%),
-    radial-gradient(circle at bottom right, rgba(185, 116, 85, 0.12), transparent 30%),
+    radial-gradient(circle at top left, rgba(183, 201, 196, 0.28), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(95, 127, 140, 0.12), transparent 32%),
     var(--sand);
   color: var(--ink);
   font-family: Georgia, "Times New Roman", serif;
@@ -31,20 +25,20 @@ body {
 }
 
 .site-header {
-  background: var(--cream);
-  border-top: 5px solid var(--moss);
+  background: rgba(255, 250, 244, 0.94);
+  border-top: 5px solid var(--ocean);
   border-bottom: 1px solid var(--line);
 }
 
 .site-title,
 .site-title:visited {
-  color: var(--moss-dark);
+  color: var(--deep-ocean);
   font-weight: 700;
   letter-spacing: 0.02em;
 }
 
 .site-nav .page-link {
-  color: var(--moss-dark);
+  color: var(--deep-ocean);
 }
 
 .site-nav .page-link:hover {
@@ -62,33 +56,33 @@ body {
 .home,
 .page-content .wrapper > article,
 .post {
-  background: rgba(255, 253, 248, 0.86);
+  background: rgba(255, 253, 248, 0.88);
   border: 1px solid var(--line);
   border-radius: 24px;
   padding: 2rem;
-  box-shadow: 0 12px 30px rgba(80, 63, 45, 0.08);
+  box-shadow: 0 12px 30px rgba(55, 88, 102, 0.09);
 }
 
 h1, h2, h3 {
-  color: var(--moss-dark);
+  color: var(--deep-ocean);
   font-family: Georgia, "Times New Roman", serif;
 }
 
 h1::after {
-  content: " 𓇢𓆸";
-  color: var(--sage);
+  content: " 𓇼";
+  color: var(--ocean);
   font-size: 0.75em;
 }
 
 a,
 a:visited {
-  color: var(--clay);
+  color: var(--ocean);
   text-decoration: none;
   font-weight: 600;
 }
 
 a:hover {
-  color: var(--moss);
+  color: var(--clay);
   text-decoration: underline;
 }
 
@@ -99,11 +93,11 @@ img {
 .paper-card {
   background: var(--card);
   border: 1px solid var(--line);
-  border-left: 6px solid var(--sage);
+  border-left: 6px solid var(--seafoam);
   border-radius: 18px;
   padding: 1.25rem 1.4rem;
   margin: 1.5rem 0;
-  box-shadow: 0 8px 22px rgba(80, 63, 45, 0.07);
+  box-shadow: 0 8px 22px rgba(55, 88, 102, 0.08);
 }
 
 .paper-card h3 {
@@ -111,6 +105,6 @@ img {
 }
 
 .site-footer {
-  background: var(--cream);
+  background: rgba(255, 250, 244, 0.94);
   border-top: 1px solid var(--line);
 }
