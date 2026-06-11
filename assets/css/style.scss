@@ -1,3 +1,11 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
 /* Muted coastal academic theme */
 
 :root {
@@ -63,7 +71,9 @@ body {
   box-shadow: 0 12px 30px rgba(55, 88, 102, 0.09);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--deep-ocean);
   font-family: Georgia, "Times New Roman", serif;
 }
