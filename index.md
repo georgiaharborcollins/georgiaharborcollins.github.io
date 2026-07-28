@@ -17,4 +17,4 @@ Hello! I am a fourth year Ph.D. student at the [University of Connecticut (UConn
 
 I completed my first Master's degree at [Imperial College London](https://www.imperial.ac.uk/) in 2021 and my second Master's degree at the [University of Cambridge](https://www.cam.ac.uk/) in 2022. I received my Bachelor's degree from [Royal Holloway, University of London](https://www.royalholloway.ac.uk/) in 2020. 
 
-You can find my CV [here](CV-27-02-26.pdf), and my papers [here](/papers/).
+You can find my CV [here](Academic_CV.pdf), and my papers [here](/papers/).
